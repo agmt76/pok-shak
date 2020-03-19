@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokemonClient\PokemonLib.csproj" />
+    <ProjectReference Include="..\PokemonShakespeare.Core\PokemonShakespeare.Core.csproj" />
+    <ProjectReference Include="..\PokemonShakespeare.Infrastructure\PokemonShakespeare.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
